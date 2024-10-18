@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.Arrays;
+
 
 public class boardContainsWord {
     public static void main(String [] args){
@@ -7,9 +7,9 @@ public class boardContainsWord {
 
         System.out.println("Enter a word: ");
         String word = scanner.next().toUpperCase();
-
+        
         String[][] board = {{"G","O","O","D"},{"M","A","S","S"}};
-
+            scanner.close();
 
             for (int i = 0; i < board.length; i++){
                 StringBuilder output = new StringBuilder();
@@ -30,10 +30,12 @@ public class boardContainsWord {
                 if (newOutput.toString().contains(word)){
                     System.out.println("Word found in COLUMN: " + (j+1));
                     return;
+
                 }
             }
+
             System.out.println("Word not to be found!");
-            scanner.close();
-        
+
+
     }
 }

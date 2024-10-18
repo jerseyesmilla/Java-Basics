@@ -13,16 +13,17 @@ class GFG{
         JButton letter7 = new JButton("G");
         JButton letter8 = new JButton("H");
         JButton letter9 = new JButton("I");
-        JButton letter10 = new JButton("J");
-        JButton letter11 = new JButton("K");
-        JButton letter12 = new JButton("L");
+
 
         letter1.setBounds(30, 30, 50,50);
         letter2.setBounds(85, 30, 50,50);
         letter3.setBounds(140, 30, 50,50);
         letter4.setBounds(30, 85, 50,50);
-        letter5.setBounds(30, 140, 50,50);
-        letter6.setBounds(30, 195, 50,50);
+        letter5.setBounds(85, 85, 50,50);
+        letter6.setBounds(140, 85, 50,50);
+        letter7.setBounds(30,140,50,50);
+        letter8.setBounds(85,140,50,50);
+        letter9.setBounds(140,140,50,50);
 
         myFrame.add(letter1);
         myFrame.add(letter2);
@@ -30,6 +31,9 @@ class GFG{
         myFrame.add(letter4);
         myFrame.add(letter5);
         myFrame.add(letter6);
+        myFrame.add(letter7);
+        myFrame.add(letter8);
+        myFrame.add(letter9);
 
         myFrame.setSize(500,500);
         myFrame.setLayout(null);
